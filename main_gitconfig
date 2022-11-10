@@ -1,0 +1,9 @@
+[includeIf "gitdir:~/WorkCode/**/"]
+    path = ~/WorkCode/.gitconfig
+
+[includeIf "gitdir:~/PersonalCode/**/"]
+    path = ~/PersonalCode/.gitconfig
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = /Users/joscha/.gitignore
