@@ -1,6 +1,6 @@
 [user]
-	email = lockomoto@googlemail.com
-	name = Joloppo Lockomoto
+    email = lockomoto@googlemail.com
+    name = Jolo-
 
 # NB - includes AFTER default user
 [includeIf "gitdir:~/WorkCode/**/"]
