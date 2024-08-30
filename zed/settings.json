@@ -1,0 +1,26 @@
+{
+  "theme": "Catppuccin Mocha - No Italics",
+  "vim_mode": true,
+  "font_face": "JetBrains Mono",
+  "autosave": "on_focus_change",
+  "autosave_on_build": true,
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+
+  "language_overrides": {
+    "Python": {
+      "format_on_save": {
+        "external": {
+          "command": "ruff",
+          "arguments": ["--fix"]
+        }
+      }
+    }
+  },
+  "inlay_hints": {
+    "enabled": true
+  }
+}
